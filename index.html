@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="text">
+        <div class="text" id="text_input">
+            <div class="kana">
+                <span class="input" id="kana_input">にゅうりょくまえ</span>
+            </div>
+            <div class="roma">
+                <span class="input" id="roma_input">NYUURYOKUMAE</span>
+            </div>
+            <div class="lyrics">
+                <span class="input" id="lyrics_input">歌詞</span>
+            </div>
+        </div>
+        <div class="text" id="text_next">
+            <div class="kana">
+                <span class="next" id="kana_next">にゅうりょくちゅう</span>
+            </div>
+            <div class="roma">
+                <span class="next" id="roma_next">NYUURYOKUTYUU</span>
+            </div>
+            <div class="lyrics">
+                <span class="next" id="lyrics_next">歌詞</span>
+            </div>
+        </div>
+        <div class="text" id="text_correct">
+            <div class="kana">
+                <span class="correct" id="kana_correct">にゅうりょくご</span>
+            </div>
+            <div class="roma">
+                <span class="correct" id="roma_correct">NYUURYOKUGO</span>
+            </div>
+            <div class="lyrics">
+                <span class="correct" id="lyrics_correct">入力後</span>
+            </div>
+        </div>
+        <div class="text" id="text_completed">
+            <div class="kana">
+                <span class="completed" id="kana_completed">くりあご</span>
+            </div>
+            <div class="roma">
+                <span class="completed" id="roma_completed">KURIAGO</span>
+            </div>
+            <div class="lyrics">
+                <span class="completed" id="lyrics_completed">クリア後</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="editor">
+        <div id="textselectArea">
+            <div id="textSelect_before" class="textSelect">
+                <label for="kana_input_check"><input type="checkbox" name="text_Select_check" id="kana_input_check">にゅうりょくまえ</label>
+                <label for="roma_input_check"><input type="checkbox" name="text_Select_check" id="roma_input_check">NYUURYOKUMAE</label>
+                <label for="lyrics_input_check"><input type="checkbox" name="text_Select_check" id="lyrics_input_check">歌詞<label>
+            </div>
+            <div id="textSelect_input" class="textSelect">
+                <label for="kana_next_check"><input type="checkbox" name="text_Select_check" id="kana_next_check">にゅうりょくちゅう</label>
+                <label for="roma_next_check"><input type="checkbox" name="text_Select_check" id="roma_next_check">NYUURYOKUTYUU</label>
+                <label for="lyrics_next_check"><input type="checkbox" name="text_Select_check" id="lyrics_next_check">歌詞<label>
+            </div>
+            <div id="textSelect_after" class="textSelect">
+                <label for="kana_correct_check"><input type="checkbox" name="text_Select_check" id="kana_correct_check">にゅうりょくご</label>
+                <label for="roma_correct_check"><input type="checkbox" name="text_Select_check" id="roma_correct_check">NYUURYOKUGO</label>
+                <label for="lyrics_correct_check"><input type="checkbox" name="text_Select_check" id="lyrics_correct_check">入力後</label>
+            </div>
+            <div id="textSelect_completed" class="textSelect">
+                <label for="kana_completed_check"><input type="checkbox" name="text_Select_check" id="kana_completed_check">くりあご</label>
+                <label for="roma_completed_check"><input type="checkbox" name="text_Select_check" id="roma_completed_check">KURIAGO</label>
+                <label for="lyrics_completed_check"><input type="checkbox" name="text_Select_check" id="lyrics_completed_check">クリア後</label>
+            </div>
+        </div>
+        <div id="panel">
+            <div id="colorSelect">
+                <input type="color" name="" id="color_picker" value="#000000"><span id="HEX_color">#000000</span>
+                <button id="generate_button">生成</button>
+            </div>
+        </div>
+    </div>
+    <div id="result">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
