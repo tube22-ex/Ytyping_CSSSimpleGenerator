@@ -2,7 +2,7 @@ body{
     background-color: #1f2427;
 }
 
-#textSelect_after label[for="lyrics_correct_check"], #textSelect_completed label[for="lyrics_completed_check"],#lyrics_completed,#lyrics_correct,#lyrics_nextlabel,[for="lyrics_next_check"]{
+#textSelect_after label[for="lyrics_correct_check"], #textSelect_completed label[for="lyrics_completed_check"],#lyrics_completed,#lyrics_correct,#lyrics_next,label[for="lyrics_next_check"]{
     visibility: hidden;
 }
 
